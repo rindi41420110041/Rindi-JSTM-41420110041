@@ -65,10 +65,10 @@ bot.on('message', (msg) => {
 				msg.chat.id,
 				`nilai p yang diprediksi adalah ${jres1[1]} watt`
 			);
-			bot.sendMessage(
-				msg.chat.id,
-				`klasifikasi tegangan ${jres2}`
-			);
+			//bot.sendMessage(
+				//msg.chat.id,
+				//`klasifikasi tegangan ${jres2}`
+			//);
 			state = 0
 		})
 	})
